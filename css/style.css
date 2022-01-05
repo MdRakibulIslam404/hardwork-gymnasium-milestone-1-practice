@@ -3,6 +3,9 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 20px 7% 0 7%;
 }
+h1{
+    font-size: 34px;
+}
 #HrdGym{
     color: tomato;
 }
@@ -31,4 +34,43 @@ body{
     width: 80%;
     float: right;
     margin-top: 5%;
+}
+.box-section{
+    display: flex;
+}
+#fst-box-id{
+    border-left: 8px solid;
+    border-image: linear-gradient(red, green);
+    border-image-slice: 1;
+}
+#cnd-box-id{
+    border-left: 8px solid;
+    border-image: linear-gradient(pink, blue);
+    border-image-slice: 1;
+}
+#trd-box-id{
+    border-left: 8px solid;
+    border-image: linear-gradient(purple, yellow);
+    border-image-slice: 1;
+}
+.box-class{
+    box-shadow: 10px 10px 40px 5px rgb(0, 191, 255);
+    margin-left: 3%;
+    width: 100%;
+    background-color: rgb(96, 165, 233);
+}
+.margin-box-text{
+    margin: 16px;
+    text-align: justify;
+}
+#btn{
+    text-decoration: none;
+    background-color: goldenrod;
+    padding: 12px;
+    border-radius: 4px;
+    color: blue;
+    font-weight: 700;
+    margin-top: 3%;
+    display: block;
+    margin-right: 84%;
 }
