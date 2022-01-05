@@ -1,7 +1,19 @@
 body{
     font-family: 'Arimo', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin: 20px 7% 0 7%;
 }
 #HrdGym{
     color: turquoise;
+}
+.welcome-section{
+    display: flex;
+}
+.half-space{
+    width: 50%;
+    text-align: justify;
+}
+.half-space img{
+    margin: 5% 0 0 25%;
+    width: 70%;
 }
