@@ -20,10 +20,15 @@ body{
 .coach-section{
     display: flex;
 }
-.coach-section img{
+#srv{
     width: 100%;
     position: relative;
     left: -34%;
     margin-top: -17%;
     /* float: right; */
+}
+#gym-training{
+    width: 80%;
+    float: right;
+    margin-top: 5%;
 }
